@@ -54,11 +54,31 @@ hr{
 
 .info {
   text-align: left;
+  font-size: 1rem;
 }
 
 .home {
   padding-top: 12px;
 }
+
+.skills {
+    font-size: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .info {
+    text-align: left;
+    font-size: 0.8rem;
+  }
+
+  .skills {
+      font-size: 2rem;
+  }
+  .lorem {
+    font-size: 0.8rem;
+  }
+}
+
 
 .top-container {
   background-color: #EAF6F6;
@@ -109,8 +129,8 @@ hr{
   margin-right: 30px;
 }
 
-.chillies {
-  width: 25%;
+.bike {
+  width: 35%;
   float: right;
   margin-left: 30px;
 }
